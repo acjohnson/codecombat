@@ -124,3 +124,5 @@ scripts/analytics/mongodb/.mainAuth.json
 
 # Local VSCode history
 .history
+
+bin/bower

@@ -21,7 +21,8 @@
     "node_modules",
     "bower_components",
     "vendor",
-    "test"
+    "test",
+    "tests"
   ],
   "dependencies": {
     "jquery": "~2.1.0",
