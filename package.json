@@ -36,7 +36,7 @@
     "test-china": "COCO_CHINA_INFRASTRUCTURE=true npm run test",
     "predeploy": "echo Starting deployment--hold onto your butts.; echo Skipping webpack build --production",
     "postdeploy": "echo Deployed. Unclench.",
-    "build": "export PATH=$PATH:/npm/lib/node_modules/codecombat/bin && sudo chown -R 1000:1000 /cocos && npm install --save bower && bower install && npm install --save fs-extra && npm run build-aether && NODE_OPTIONS='--max-old-space-size=4096' node ./runWebpack.js",
+    "build": "export PATH=$PATH:/npm/lib/node_modules/codecombat/bin && sudo chown -R 1000:1000 /coco && npm install --save bower && bower install && npm install --save fs-extra && npm run build-aether && NODE_OPTIONS='--max-old-space-size=4096' node ./runWebpack.js",
     "pre-build": "export PATH=$PATH:/npm/lib/node_modules/codecombat/bin && sudo chown -R 1000:1000 /coco && npm install --save bower && bower install && npm install --save fs-extra && npm run build-aether",
     "build-aether": "node setup-aether.js",
     "webpack": "NODE_OPTIONS='--max-old-space-size=4096' webpack",
